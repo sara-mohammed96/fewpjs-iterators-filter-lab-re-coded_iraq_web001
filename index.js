@@ -5,5 +5,5 @@ function findMatching(array,string){
 
 
 function fuzzyMatch(array ,string){
-  return array.filter(item=>item.startWith(string))
+  return array.filter(item=>item.startsWith(string))
 }
